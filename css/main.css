@@ -1,0 +1,50 @@
+.fondo-negro{
+	padding: 30px;
+	background-color:black;
+}
+a{
+	text-decoration: none;
+	color: white;
+	margin: 5px;
+
+}
+span{
+	color: red;
+}
+p{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: grey;
+	line-height: 1.5;
+}
+#boton-article{/* caracteristicas de mi boton*/
+
+	border-radius: 40px;
+	background-color: #888;
+	color:lightgrey;
+	width: 100px;
+	height: 50px,
+	padding:15px;
+	text-align: center;
+}
+img{
+	margin-left: 30px;
+}
+.cuadricula{
+	
+	}/* caracteristicas de imagenes cuadricula*/
+h6,h4,h3, h5,h6{
+	color:white;
+	line-height: 1.5;
+}
+
+.fondo-footer{
+	background-color: black;
+}
+.border-bottom{
+	border-bottom: 1px solid lightgrey;
+}
+fuente-mini{
+	font-size: 6px;
+	color: grey;
+}
