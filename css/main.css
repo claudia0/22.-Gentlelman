@@ -8,6 +8,10 @@ a{
 	margin: 5px;
 
 }
+.links-subdivision{
+	color: grey;
+
+}
 span{
 	color: red;
 }
@@ -17,7 +21,7 @@ p{
 	color: grey;
 	line-height: 1.5;
 }
-#boton-article{/* caracteristicas de mi boton*/
+#boton-article,.boton-float{/* caracteristicas de mi boton*/
 
 	border-radius: 40px;
 	background-color: #888;
@@ -27,16 +31,24 @@ p{
 	padding:15px;
 	text-align: center;
 }
-img{
-	margin-left: 30px;
+
+.ciudad{
+	width: 90%;
 }
 .cuadricula{
+	height: 250px;
+	width: 450px;
 	
 	}/* caracteristicas de imagenes cuadricula*/
 h6,h4,h3, h5,h6{
 	color:white;
 	line-height: 1.5;
 }
+h4{font-size: 14px;}
+
+.fuente-mini{font-size:10px;}
+
+h1,h2{color:dimgrey;}
 
 .fondo-footer{
 	background-color: black;
@@ -47,4 +59,17 @@ h6,h4,h3, h5,h6{
 fuente-mini{
 	font-size: 6px;
 	color: grey;
+}
+.boton-footer{
+	background-color: #F90059;
+	color: white;
+	width:2%;
+	height: 20px;
+	width: 40px;
+	border-color: transparent;
+	position: relative;
+	margin: 5PX;
+}
+.fondo-logo{
+	background-color:grey; 
 }

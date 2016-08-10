@@ -21,7 +21,7 @@
         <header>
             <div class="row fondo-negro">
                 <div class="col-6"><!--aqui va el logo de Gentleman-->
-                          
+                	<img src="img/logo.png" alt="logo">       
                 </div>
                 <div class="col-6"><!--aqui va mi nav-->
                     <nav>
@@ -40,7 +40,7 @@
         <article>
             <div class="row pt-5">
                 <div class="col-8"><!--aqui va mi imagen de la cd-->
-                    <img src="img/header.png" alt="header">
+                    <img class="ciudad" src="img/header.png" alt="header">
                 </div>
                 <div class="col-4 text-grey "><!--aqui va mi texto con boton-->
                     <h1>The Gentleman <br>Word press Themes<br> has attitude!</h1>
@@ -51,34 +51,37 @@
             </div>   
         </article>
         <section>
-            <div class="row">
-                <div class="col-10"><!--aqui va titulo de cuadricula de imagenes Y UNOS LINKS-->
-                    <h2>LATEST PROJECT</h2>
+            <div class="row pl-5"><!--aqui va titulo de cuadricula de imagenes Y UNOS LINKS-->
+                <div class="col-5">
+                    <h2>LATEST PROJECTS</h2>
+                    <a class="links-subdivision " href="">Recent work</a>
+                    <a class="links-subdivision " href="">Popular work</a>
+                    <a class="links-subdivision " href="">All work work</a>
                 </div>
-                <div class="col-2"><!--aqui va la vista de imagenes -->
+                <div class="col-7"><!--aqui va la vista de imagenes -->
                     
                 </div>
             </div>
             <div class="row ">
                 <div class="col-6">
-                    <img class="cuadricula"src="img/main-pic.png" alt="main.pic">
+                    <img class="cuadricula" src="img/main-pic.png" alt="main.pic">
                     <h4>Capuccino catcher Urna Placerat Ornare</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
             <div class="col-6">
-                <img src="img/main-pic.png" alt="main.pic">
+                <img class="cuadricula" src="img/main-pic.png" alt="main.pic">
                 <h4>Capuccino catcher Urna Placerat Ornare</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
             </div>
             <div class="row">
                 <div class="col-6 ">
-                    <img class="cuadricula"src="img/main-pic.png" alt="main.pic">
+                    <img class="cuadricula" src="img/main-pic.png" alt="main.pic">
                     <h4>Capuccino catcher Urna Placerat Ornare</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
                 <div class="col-6">
-                    <img src="img/main-pic.png" alt="main.pic">
+                    <img  class="cuadricula" src="img/main-pic.png" alt="main.pic">
                     <h4>Capuccino catcher Urna Placerat Ornare</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
@@ -90,9 +93,10 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
                 <div class="col-6">
-                    <img src="img/main-pic.png" alt="main.pic">
+                    <img class="cuadricula" src="img/main-pic.png" alt="main.pic">
                     <h4>Capuccino catcher Urna Placerat Ornare</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <button class="float"></button>
                 </div>
             </div>
             <div class="row pd-5 text-grey">
@@ -108,9 +112,13 @@
         </div><!--finalizo el container de article y section-->
     <div class="container-fluid fondo-footer pd-5">
         <footer>
-            <div class="row border-bottom mg">
+            <div class="row border-bottom mg text-grey">
                 <div class="col-4"><!--aqui va la caja de redes sociales -->
-                    
+                    <img class="fondo-logo" src="img/logo.png" alt="logo">
+                    <a href=""><img src="img/google-plus.png" alt="google"></a>
+                    <a href=""><img src="img/twitter.png" alt="twitter"></a>
+                    <a href=""><img src="img/facebook.png" alt="linkedin"></a>
+                    <a href=""><img src="img/facebook.png" alt="facebook"></a>
                 </div>
                 <div class="col-4"><!--aqui va texto -->
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -126,22 +134,31 @@
                 </div>     
             </div> 
             <div class="row mg-0">
-                <div class="col-4">
+                <div class="col-3">
                    <h4>Clients</h4>
                    <p class="fuente-mini">Olvlu Stolan - Webstar designer</p>
                    <p class="fuente-mini">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio rerum impedit explicabo quasi laudantium, quam fuga aperiam sed tempore cupiditate voluptate, est ipsum eveniet nulla culpa reiciendis, dolorem, perferendis neque</p>
                    <p class="fuente-mini">Olvlu Stolan - Webstar designer</p>
                    <p class="fuente-mini">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio rerum impedit explicabo quasi laudantium, quam fuga aperiam sed tempore cupiditate voluptate, est ipsum eveniet nulla culpa reiciendis, dolorem, perferendis neque</p>
                 </div>
-                <div class="col-4">
-                   <h4>Twitter Updates</h4>
+                <div class="col-3">
+                   <h4>Twitter Updates<button class="boton-footer">Follow</button></h4>
                 </div>
-                <div class="col-4">
+                <div class="col-3">
                    <h4>Adress</h4>
                    <h4>69-70 Silicon Valley</h4><br>
                    <h4>San Francisco, CA 99789</h4>
+                   <h2><span >01-800-275-2273</span></h2>
                 </div>
-            </div>     
+                <div class="col-3"><!--aqui va mi contador de visitas-->
+                    
+                </div>
+            </div> 
+            <div class="row text-center text-white border-bottom">
+                <div class="col-12">
+                    <h6>Copyright 2012<span>The Gentlelman</span>All rights reserved, W3C standard Website. Valid (X)html/5</h6>
+                </div>
+            </div>    
         </footer> 
     </div>
 </body>
